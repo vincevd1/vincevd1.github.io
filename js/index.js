@@ -9,9 +9,9 @@ $(document).ready(() => {
     setTimeout(() => {
         console.log('test')
         $('.loader').css('transform', 'translateY(-100vh)')
-        $('html').css('overflow', 'auto')
         setTimeout(() => {
             $('.loader').remove()
+            $('html').css('overflow', 'auto')
         }, 500)
     }, 2000)
 })
