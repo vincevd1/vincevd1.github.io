@@ -310,7 +310,7 @@ section {
     gap: 10%;
 }
 
-.portretfoto {
+.portretfoto, .caricature {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -387,4 +387,9 @@ section {
     float: right;
     align-items: center;
     padding: 30px;
+}
+
+.artAndMe {
+    max-width: 1000px;
+    height: 70vh;
 }
